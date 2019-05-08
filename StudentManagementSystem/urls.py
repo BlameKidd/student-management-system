@@ -18,5 +18,5 @@ from django.conf.urls import url
 from app import views
 
 urlpatterns = [
-    url('admin/', views.classes_list),
+    url('classes_list/', views.classes_list),    # 班级列表
 ]
