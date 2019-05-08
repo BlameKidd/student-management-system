@@ -8,7 +8,11 @@ def classes_list(request):
 
 
 def add_classes(request):
-    return
+    if request.method == 'POST':
+        classes_name = request.POST.get('classes_name')
+        Classes.objects.create(name=classes_name)
+        redirect('/classes_list/')
+    return render(request, 'classes/add_classes.html')
 
 
 def delete_classes(request):
