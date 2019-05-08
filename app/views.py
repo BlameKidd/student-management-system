@@ -11,7 +11,7 @@ def add_classes(request):
     if request.method == 'POST':
         classes_name = request.POST.get('classes_name')
         Classes.objects.create(name=classes_name)
-        redirect('/classes_list/')
+        redirect('/classes/classes_list/')
     return render(request, 'classes/add_classes.html')
 
 
