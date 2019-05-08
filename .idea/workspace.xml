@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52209606-5c3b-4d7c-be03-1647aeb14b3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentManagementSystem/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentManagementSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManagementSystem/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StudentManagementSystem/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
+            <state relative-caret-position="254">
+              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -57,6 +55,30 @@
     <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StudentManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -110,12 +132,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557278689181</updated>
-      <workItem from="1557278718449" duration="224000" />
+      <workItem from="1557278718449" duration="538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224000" />
+    <option name="totallyTimeSpent" value="538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="510" y="86" width="1289" height="840" extended-state="0" />
@@ -160,8 +182,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StudentManagementSystem/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
+        <state relative-caret-position="254">
+          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'StudentManagementSystem.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'student_management',    # 数据库名字
+        'HOST': '127.0.0.1',    # 数据库主机地址
+        'PORT': 3306,    # 数据库端口号
+        'USER': 'root',
+        'PASSWORD': '123456',
     }
 }
 
@@ -121,5 +125,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path_join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'static')
 ]
