@@ -22,5 +22,11 @@ def delete_classes(request):
 
 
 def edit_classes(request):
-    
-    return
+    edit_classes_id = request.GET.get('id')
+    edit_classes_obj = Classes.objects.get(id=edit_classes_id)
+    if request.method == 'POST':
+        new_classes_name = request.POST.get('classes_name')
+        edit_classes_obj.name = new_classes_name
+        edit_classes_obj.save()
+        return redirect('/classes_list/')
+    return render(request, 'classes/edit_classes.html', {'edit_classes_obj': edit_classes_obj})
