@@ -18,8 +18,8 @@ from django.conf.urls import url
 from app import views
 
 urlpatterns = [
-    url('classes_list/', views.classes_list),    # 班级列表
-    url('add_classes/', views.add_classes),    # 添加班级
-    url('delete_classes/', views.delete_classes),    # 删除班级
-    url('edit_classes/', views.edit_classes),    # 编辑班级
+    url(r'classes_list/$', views.classes_list),    # 班级列表
+    url(r'add_classes/$', views.add_classes),    # 添加班级
+    url(r'delete_classes/$', views.delete_classes),    # 删除班级
+    url(r'edit_classes/$', views.edit_classes),    # 编辑班级
 ]
